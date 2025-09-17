@@ -1,0 +1,45 @@
+/*Estilo para el componente header*/
+.app-header {
+        background-color: #e76060;
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+    }
+
+/*Estilo para el componente la etera de navegacion*/
+.app-header nav a {
+        color: #fff;
+        text-decoration: none;  /*Sin decoracion*/
+        margin: 0 10px;
+    }
+
+.app-header nav a:hover {
+        text-decoration: underline;
+    }
+
+/*Estilos para el content*/
+
+.app-content {
+        margin: 10px;
+        border: 1px solid #938787;
+        padding: 10px;
+        border-radius: 8 px;
+        padding: 12px;
+    }
+
+.app-content h2 {
+        font-size: 18px;
+        margin: o auto;
+        color: #e76060;
+    }
+
+/*EStilos para el footer*/
+
+.app-footer {
+        background-color: #e76060;
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+        font-weight: bold;
+        
+    }
