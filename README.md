@@ -1,4 +1,4 @@
-# parcialFinal
+# Actividades
 
 Este repositorio ha sido creado para el curso de **Desarrollo de Aplicaciones Web**.
 
