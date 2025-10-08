@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="card" style="width: 18rem;">
+        <img src="https://picsum.photos/200" class="card-img-top" alt="imagen">
+        <div class="card-body">
+            <h5 class="card-title">Título</h5>
+            <p class="card-text">Descripción breve del componente.</p>
+            <button class="btn btn-primary" id="btnSaludo">Saludar</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("btnSaludo").addEventListener("click", () => {
+            alert("¡Hola desde Bootstrap con JS puro!");
+        });
+    </script>
+
+</body>
+
+</html>
