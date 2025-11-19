@@ -1,30 +1,20 @@
-
 <template>
-    <div>
-    <nav class="navbar navbar-expand-1g navbar-dark bg-primary">
-        <div class="navbar-brand ps-3">Panel</div>
-        <ul class="navbar-nav">
-            <li class="nav-item"><router-link to="/productos" class="nav-link">Productos</router-link></li>
-            <li class="nav-item"><a @click="logout" class="nav-link">Cerrar sesión</a></li>
+  <div class="d-flex vh-100">
+    <!-- Sidebar -->
+    <SidebarComponent />
 
-        </ul>
-
-    </nav>
-    <nouter-view />
+    <!-- Contenido principal -->
+    <div class="flex-grow-1 p-4 bg-light overflow-auto">
+      <router-view />
     </div>
-
+  </div>
 </template>
 
 <script>
+import SidebarComponent from '@/components/SidebarComponent.vue';
 
 export default {
-
-    methods: {
-        logout() {
-            localStorage.removeItem('logueado');
-            this.$router.push('/');
-        }
-    }
+  name: 'DashboardView',
+  components: { SidebarComponent }
 }
-
 </script>
